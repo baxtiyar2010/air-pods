@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-content {
+    position: relative;
+    flex-grow: 1;
+}
+
+
+.header-content__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header-content__title {
+    color: white;
+    font-size: 64px;
+    line-height: 68px;
+    font-family: "MB";
+}
+
+.header-content__minititle {
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "MR";
+
+
+}
+
+.airpods-left__text{
+    color: white;
+    font-size: 18px;
+    line-height:22px;
+    font-family: 'MR';
+}
+.case-left__text{
+    color: white;
+}
+
+.sensor-text{
+    color: white;
+
+}
+
+.phons{
+    gap:10px;
+}
+
+.phons-item{
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.phone-item__title-one{
+     color: #000000;
+    font-family: 'MB';
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.phone-item__title-two{
+    color: #000000;
+    font-family: 'MR';
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.phone-item__title-three{
+    font-family: 'MB';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+@media (max-width:470px) {
+    .header-content__title {
+        font-size: 50px;
+    }   
+
+    .header-content__minititle {
+        font-size: 19px;
+    
+    
+    }
+}
+@media (max-width:360px) {
+    .header-content__title {
+        font-size: 35px;
+    }  
+    
+    .header-content__minititle {
+        font-size: 14px;
+    
+    }
+}
